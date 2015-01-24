@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Standard Assets/LavaPackage/Sources/Lava.shader">
+    <Files>
+      <File FileName="Assets/Scripts/rotateP.cs" Line="13" Column="50" />
+      <File FileName="Assets/Scripts/PickUp.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Controller.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/Controller2.cs" Line="35" Column="65" />
+      <File FileName="Assets/Scripts/destroy.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/crossHair.js" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/RotateCyl.cs" Line="13" Column="56" />
+      <File FileName="Assets/Standard Assets/LavaPackage/Sources/Lava.shader" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
