@@ -4,6 +4,8 @@ var PickUpAnchor : GameObject; // Add an empty gameobject named "PickUpAnchor" t
 
 var HoldingObject : boolean;
 var HoldingGameObject : GameObject;
+var elmine = true;
+var dogi : GameObject;
 
 
 function Start () {
@@ -12,6 +14,8 @@ function Start () {
 }
 
 function Update () {
+	
+
     if (Input.GetMouseButtonDown(0)/*Input.GetKeyUp(KeyCode.E)*/){  // Checks if we press E
         if (!HoldingObject){ // Only runs if we're not holding an object;
             var ray = Camera.main.ScreenPointToRay (Input.mousePosition); //Shoots a ray from the camera to the mouse (screenwidth / 2,  screenheight / 2)
@@ -35,7 +39,19 @@ function Update () {
             //HoldingGameObject.collider.enabled = true; //reenables our colider
             HoldingGameObject.transform.rigidbody.isKinematic = false; // turns on the rigidbody
             HoldingObject = false; //ready to pick up another object
-        }
+        } if(HoldingObject&&elmine){
+			if(HoldingGameObject.name == "giveaDogABone"){
+				var temp = Vector3(GameObject.Find("scuba_dawg").transform.position.x,GameObject.Find("scuba_dawg").transform.position.y,GameObject.Find("scuba_dawg").transform.position.z);
+				var temp2 = Quaternion(GameObject.Find("scuba_dawg").transform.rotation.x,GameObject.Find("scuba_dawg").transform.rotation.y,GameObject.Find("scuba_dawg").transform.rotation.z,0f);
+				Destroy(GameObject.Find("scuba_dawg"));//.GetComponent("dogRotate").SendMessage("changei");
+				Instantiate(dogi, temp, temp2);
+				elmine = false;
+				
+				
+				//GameObject.Find("scuba_dawg").GetComponent("SmoothLookAt").active = false;
+			}
+	}
+        
    // if (Input.GetKeyDown ("escape")){
      //   Screen.lockCursor = false; // shows mouse
    // }

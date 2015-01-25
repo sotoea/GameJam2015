@@ -5,6 +5,10 @@ var smooth = true;
 @script AddComponentMenu("Camera-Control/Smooth Look At")
 
 function LateUpdate () {
+	if(transform.name == "scuba_dawgi(Clone)"){
+	print("hello");
+		target = GameObject.FindGameObjectWithTag("braingun").transform;
+	}
 	if (target) {
 		if (smooth)
 		{

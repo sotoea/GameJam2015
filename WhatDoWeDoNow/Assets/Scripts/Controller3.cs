@@ -19,7 +19,7 @@ public class Controller3 : MonoBehaviour {
 			}
 		}
 		//Screen.lockCursor = true;
-		if(transform.position.y <-2500000){
+		if(transform.position.y >140){
 			Application.LoadLevel(Application.loadedLevel);
 		}
 
