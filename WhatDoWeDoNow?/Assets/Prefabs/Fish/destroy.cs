@@ -20,8 +20,10 @@ public class destroy : MonoBehaviour {
 		collision.animation.Play("Death");
 		Instantiate(fishPlane,collision.transform.position-(new Vector3(1.85f,-0.5f,0f)), Quaternion.Euler(0,0,0));
 			fishPlane.transform.parent = collision.transform;
-			collision.SendMessage("changeMove");
+			//collision.SendMessage("changeMove");
 		}
+
+
 		
 	}
 }

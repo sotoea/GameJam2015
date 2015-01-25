@@ -1,17 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Prefabs/Fish/Move.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/MoveUp.cs">
     <Files>
-      <File FileName="Assets/Scripts/rotateP.cs" Line="13" Column="50" />
-      <File FileName="Assets/Scripts/PickUp.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Controller.cs" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/Scripts/Camera Scripts/SmoothLookAt.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/Controller2.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/crossHair.js" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/RotateCyl.cs" Line="1" Column="1" />
-      <File FileName="Assets/Standard Assets/LavaPackage/Sources/Lava.shader" Line="1" Column="1" />
-      <File FileName="Assets/Prefabs/Fish/destroy.cs" Line="23" Column="40" />
-      <File FileName="Assets/Prefabs/Fish/Move.cs" Line="21" Column="3" />
+      <File FileName="Assets/Scripts/MoveUp.cs" Line="13" Column="11" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

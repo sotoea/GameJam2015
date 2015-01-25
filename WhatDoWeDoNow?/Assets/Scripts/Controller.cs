@@ -15,7 +15,7 @@ public class Controller : MonoBehaviour {
 		if(highAllTheTime){
 			transform.Translate(Vector3.up*Time.deltaTime*100);
 			if(transform.position.y>100){
-				Application.LoadLevel("Scene2");
+				Application.LoadLevel("lvl2_004_withGameplay");
 			}
 		}
 		//Screen.lockCursor = true;
