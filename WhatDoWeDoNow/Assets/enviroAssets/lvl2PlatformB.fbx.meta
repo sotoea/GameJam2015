@@ -1,0 +1,157 @@
+fileFormatVersion: 2
+guid: b59c0d4b15e2c2b4b9cca1e8c21a5b14
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: group1
+    100002: //RootNode
+    100004: pCylinder100
+    100006: pCylinder101
+    100008: pCylinder102
+    100010: pCylinder103
+    100012: pCylinder104
+    100014: pCylinder105
+    100016: pCylinder106
+    100018: pCylinder107
+    100020: pCylinder108
+    100022: pCylinder109
+    100024: pCylinder110
+    100026: pCylinder51
+    100028: pCylinder90
+    100030: pCylinder90 1
+    100032: pCylinder91
+    100034: pCylinder92
+    100036: pCylinder93
+    100038: pCylinder94
+    100040: pCylinder95
+    100042: pCylinder96
+    100044: pCylinder97
+    100046: pCylinder98
+    100048: pCylinder99
+    100050: transform10
+    100052: transform11
+    100054: transform12
+    100056: transform13
+    100058: transform14
+    100060: transform15
+    100062: transform16
+    100064: transform17
+    100066: transform18
+    100068: transform19
+    100070: transform20
+    100072: transform21
+    100074: transform22
+    100076: transform23
+    100078: transform24
+    100080: transform25
+    100082: transform26
+    100084: transform27
+    100086: transform28
+    100088: transform7
+    100090: transform8
+    100092: transform9
+    400000: group1
+    400002: //RootNode
+    400004: pCylinder100
+    400006: pCylinder101
+    400008: pCylinder102
+    400010: pCylinder103
+    400012: pCylinder104
+    400014: pCylinder105
+    400016: pCylinder106
+    400018: pCylinder107
+    400020: pCylinder108
+    400022: pCylinder109
+    400024: pCylinder110
+    400026: pCylinder51
+    400028: pCylinder90
+    400030: pCylinder90 1
+    400032: pCylinder91
+    400034: pCylinder92
+    400036: pCylinder93
+    400038: pCylinder94
+    400040: pCylinder95
+    400042: pCylinder96
+    400044: pCylinder97
+    400046: pCylinder98
+    400048: pCylinder99
+    400050: transform10
+    400052: transform11
+    400054: transform12
+    400056: transform13
+    400058: transform14
+    400060: transform15
+    400062: transform16
+    400064: transform17
+    400066: transform18
+    400068: transform19
+    400070: transform20
+    400072: transform21
+    400074: transform22
+    400076: transform23
+    400078: transform24
+    400080: transform25
+    400082: transform26
+    400084: transform27
+    400086: transform28
+    400088: transform7
+    400090: transform8
+    400092: transform9
+    2300000: pCylinder90
+    3300000: pCylinder90
+    4300000: pCylinder90
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 
